@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: url("assets/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    text-align: center;
+    background: #292929;
+    font-family: 'Ubuntu', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff6666;
+    font-size: 3.5rem;
+}
+
+p {
+    color: #ffffff;
+}
+
+#joke {
+    color: #ff6666;
+}
+
+button {
+    padding: 15px 50px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}

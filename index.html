@@ -4,16 +4,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Joke Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Dark Joke Generator</h1>
-    <p>No one is safe...</p>
 
-    <input type="checkbox" id="includeNSFW" name="includeNSFW" value="Include NSFW">
-    <label for="includeNSFW">Include NSFW</label>
+    <div class="container">
+        <h1>Dark Joke Generator</h1>
+        <p>No one is safe...</p>
+    
+        <div id="joke"></div>
+        <button onclick="getJoke()">Into the Abyss</button>
+	</div>
 
-    <div id="joke"></div>
-    <button onclick="getJoke()">Into the Abyss</button>
 <script src="scripts.js"></script>
 </body>
 </html>
