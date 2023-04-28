@@ -24,21 +24,21 @@ body {
 }
 
 h1 {
-    color: #ff6666;
+    color: #00897b;
     font-size: 3.5rem;
 }
 
 p {
-    color: #ffffff;
+    color: #00897b;
 }
 
 #joke {
-    color: #ff6666;
+    color: #00564d;
 }
 
 button {
     padding: 15px 50px;
-    background-color: #ffffff;
+    background-color: #00897b;
     border: none;
     cursor: pointer;
 }
