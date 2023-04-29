@@ -1,2 +1,2 @@
 # dark-joke-generator
-No one is safe.
+You can view the live site here - https://theladeli.github.io/dark-joke-generator/
