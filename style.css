@@ -46,3 +46,32 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+
+.disclaimer {
+    position: absolute;
+    bottom: 2%;
+    width: 40%;
+    color: #ffffff3b;
+}
+
+/* Mobile Optimization */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;        
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    #joke {
+        font-size: 20px;
+    }
+
+    .disclaimer {
+        width: 95%;
+        bottom: 0;
+        font-size: 12px;
+    }
+  }
