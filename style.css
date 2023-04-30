@@ -45,6 +45,8 @@ button {
     margin-top: 40px;
     font-weight: bold;
     font-size: 20px;
+    border: none;
+    color: #292929;
 }
 
 .disclaimer {
